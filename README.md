@@ -15,6 +15,18 @@ The app contains three small examples:
 
 Each example has a working demo followed by notes that explain the important code, similar to the Week 5 jQuery reference demos.
 
+## Simplified demo versions
+
+Beginner-friendly versions are available in `src/components/simplified-demos`:
+
+1. `Demo01-MutableRef-Simplified.jsx`
+2. `Demo02-InputRef-Simplified.jsx`
+3. `Demo03-CheckboxRefArray-Simplified.jsx`
+
+These files cover the same main concepts as the full demos, but they use simpler comments, shorter explanations, smaller code examples, and easier vocabulary. Technical terms are still included and explained in beginner-friendly language.
+
+The main app renders the full demos. The simplified versions are alternative study files and are not rendered, so the page does not display every demo twice.
+
 ## Main ref pattern
 
 ```jsx
