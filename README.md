@@ -7,10 +7,11 @@ Local repo name: `csx4107-w8-using-ref`
 
 ## What this repo demonstrates
 
-The app contains two small examples:
+The app contains three small examples:
 
-1. `FocusInputDemo.jsx` shows how one ref can access an input DOM element.
-2. `RegisterDemo.jsx` shows how callback refs can store several checkbox elements in an array.
+1. `Demo01-MutableRef.jsx` compares a normal variable with a persistent mutable ref.
+2. `Demo02-InputRef.jsx` shows how one ref can access an input DOM element.
+3. `Demo03-CheckboxRefArray.jsx` shows how callback refs can store several checkbox elements in an array.
 
 Each example has a working demo followed by notes that explain the important code, similar to the Week 5 jQuery reference demos.
 

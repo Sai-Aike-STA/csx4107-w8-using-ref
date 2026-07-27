@@ -1,23 +1,5 @@
-:root {
-  font-family: Arial, Helvetica, sans-serif;
-  line-height: 1.5;
-  color: #20242b;
-  background: #eceff3;
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-}
-
-* {
-  box-sizing: border-box;
-}
-
 body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
   margin: 0;
-}
-
-h1,
-h2,
-h3,
-p {
-  margin-top: 0;
 }

@@ -1,6 +1,7 @@
 import './App.css'
-import FocusInputDemo from './components/FocusInputDemo.jsx'
-import RegisterDemo from './components/RegisterDemo.jsx'
+import Demo01MutableRef from './components/Demo01-MutableRef.jsx'
+import Demo02InputRef from './components/Demo02-InputRef.jsx'
+import Demo03CheckboxRefArray from './components/Demo03-CheckboxRefArray.jsx'
 
 function App() {
   return (
@@ -14,8 +15,9 @@ function App() {
         </p>
       </header>
 
-      <FocusInputDemo />
-      <RegisterDemo />
+      <Demo01MutableRef />
+      <Demo02InputRef />
+      <Demo03CheckboxRefArray />
     </main>
   )
 }
