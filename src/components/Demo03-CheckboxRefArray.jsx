@@ -30,8 +30,12 @@ function Demo03CheckboxRefArray() {
           id={`hobby-${index}`}
           name="hobby"
           value={hobby.value}
-          ref={(element) => {
-            hobbiesRef.current[index] = element
+          ref={(currentCheckboxElement) => {
+            hobbiesRef.current[index] = currentCheckboxElement
+
+            // The code is basically doing this
+            // const realInputElement = document.createElement('input')
+            // refFunction(realInputElement)
           }}
         />
         {hobby.name}

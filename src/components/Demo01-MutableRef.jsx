@@ -67,7 +67,7 @@ function Demo01MutableRef() {
         <p>
           A ref is a persistent mutable object. <strong>Persistent</strong>{' '}
           means it stays available between renders. <strong>Mutable</strong>{' '}
-          means its stored value can be changed.
+          means its stored value can be changed. It is like useState but it doesn't auto render.
         </p>
 
         <h3>A ref is an object with a current property</h3>
