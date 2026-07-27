@@ -5,6 +5,10 @@ Practice: **Using Ref**
 
 Local repo name: `csx4107-w8-using-ref`
 
+GitHub repository: https://github.com/Sai-Aike-STA/csx4107-w8-using-ref
+
+Link to hosted site: https://sai-aike-sta.github.io/csx4107-w8-using-ref/
+
 ## What this repo demonstrates
 
 The app contains three small examples:
@@ -69,3 +73,5 @@ npm run dev
 ```bash
 npm run build
 ```
+
+Pushing to `main` runs the GitHub Actions workflow and deploys the built `dist` directory to GitHub Pages.
